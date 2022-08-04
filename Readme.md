@@ -29,7 +29,7 @@ type Netflow struct {
 }
 ```
 
-3. Finally, the program log the prediction add additional information (ip, port, timestamp, ...) with each record. Logs will store in `log/` folder.
+3. Finally, the program logs the prediction and adds additional information (ip, port, timestamp, ...) with each record. Logs will store in `log/` folder.
 
 ```log
 Flow IDS prediction: Timestamp=2022-07-19T12:05:25.000Z, Score=0.781500, Malicious=true, Source=10.0.0.1:39954, Destination=10.0.0.4:80, Protocol=6, ExporterIp=192.168.142.140:35567
